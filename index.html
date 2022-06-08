@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <header class="w-100 bg-success text-white d-flex justify-content-center align-items-center">Calculator App</header>
+    <section class="calc rounded mx-auto mt-5 overflow-hidden text-center bg-dark">
+        <section class="vals d-flex flex-wrap justify-content-between mx-auto">
+            <input type="text" id="num1" class="rounded" placeholder="Enter first number">
+            <input type="text" id="num2" class="rounded" placeholder="Enter second number">
+            <input type="text" id="result" class="text-white rounded" disabled>
+        </section>
+        <section class="op d-flex flex-wrap rounded mx-auto justify-content-between">
+            <span class="sum text-white d-grid rounded bg-primary">+</span>
+            <span class="sub text-white d-grid rounded bg-primary">-</span>
+            <span class="mul text-white d-grid rounded bg-primary">*</span>
+            <span class="div text-white d-grid rounded bg-primary">/</span>
+        </section>
+        <div class="clear bg-danger text-white rounded mx-auto">Clear</div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>
